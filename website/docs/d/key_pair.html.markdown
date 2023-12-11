@@ -62,6 +62,8 @@ This data source exports the following attributes in addition to the arguments a
 
 * `id` - ID of the Key Pair.
 * `arn` - ARN of the Key Pair.
+* `key_name` - The key pair name.
+* `key_pair_id` - The key pair ID.
 * `create_time` - Timestamp for when the key pair was created in ISO 8601 format.
 * `fingerprint` - SHA-1 digest of the DER encoded private key.
 * `key_type` - Type of key pair.
